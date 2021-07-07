@@ -3,27 +3,91 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+a{
+    color: #11999E;
+}
 h1{
+    color: #66BFBF;
     margin-top: 0;
-    margin: 0 auto;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 .top-container{
     background: #e4f9f5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 150px;
+}
+.top-container h2{
+    font-weight: normal;
+}
+.profile img{
+    width: 50%;
+}
+.profile{
+    width: 30%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-skill{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.academic-skill{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 .top-cloud{
     position: absolute;
-    right: 450px;
+    right: 300px;
     top: 50px;
 }
 .bottom-cloud{
     position: absolute;
+    left: 300px;
+}
+.middle-container{
+    line-height: 2;
+}
+.btn{
+    text-decoration: none;
+    color: seashell;
+    display: inline-block;
+    width: 100px;
+    background-color: #11999E;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin: 30px auto;
+}
+.bottom-container{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding: 35px;
+    background-color: #66BFBF;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: #11999E;
+    padding: 10px;
+}
+.bottom-container p{
+    color: #EAF6F6;
 }

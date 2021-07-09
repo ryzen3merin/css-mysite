@@ -88,6 +88,15 @@ h3{
     color: #11999E;
     padding: 10px;
 }
+.bottom-container a:hover{
+    color: #EAF6F6;
+}
 .bottom-container p{
     color: #EAF6F6;
+}
+hr{
+    display: inline-block;
+    margin: 50px auto;
+    border-top: 8px dotted gray;
+    width: 10%;
 }
